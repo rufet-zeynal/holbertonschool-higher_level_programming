@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-number=-98
-print(f"{number} Battery street")
+#!/usr/bin/python3
+for number in [333, -98]:
+    print(f"{number} Battery street")
