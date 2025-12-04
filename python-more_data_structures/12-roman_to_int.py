@@ -11,7 +11,7 @@ def roman_to_int(roman_string):
         'D': 500,
         'M': 1000
     }
-    total_value = 0
+    total = 0
     prev_value = 0
     for char in reversed(roman_string):  # start from the end
         value = roman_number.get(char, 0)
