@@ -13,7 +13,7 @@ def roman_to_int(roman_string):
     }
     
     for char in reversed(roman_string):  # start from the end
-        value = roman_map.get(char, 0)
+        value = roman_number.get(char, 0)
         if value < prev_value:
             total -= value
         else:
