@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    newstring=""
+    newstring = ""
     for st in my_string:
         if st == 'c' or st == 'C':
             continue
