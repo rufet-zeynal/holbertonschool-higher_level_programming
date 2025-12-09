@@ -3,10 +3,9 @@
 Defines a Rectangle class with width and height.
 """
 
-
 class Rectangle:
     """
-    Represents a rectangle with private width and height attributes.
+    Represents a rectangle
     """
 
     def __init__(self, width=0, height=0):
