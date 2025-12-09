@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with width, height, area, perimeter, and print behavior."""
+"""Defines a Rectangle class with width, height, area, perimeter, and print.
+
+This class supports printing the rectangle using '#' and formal string
+representation with memory address.
+"""
 
 
 class Rectangle:
@@ -49,7 +53,7 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Return a string representation of the rectangle using '#' characters."""
+        """Return a string representation of the rectangle using '#'."""
         if self.__width == 0 or self.__height == 0:
             return ""
         lines = ['#' * self.__width for _ in range(self.__height)]
@@ -57,4 +61,4 @@ class Rectangle:
 
     def __repr__(self):
         """Return a formal string representation of the rectangle."""
-        return f"<3-rectangle.Rectangle object at {hex(id(self))}>"
+        return "<3-rectangle.Rectangle object at {}>".format(hex(id(self)))
