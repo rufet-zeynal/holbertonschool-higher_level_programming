@@ -3,7 +3,6 @@
 Defines a Rectangle class with width and height.
 """
 
-
 class Rectangle:
     """
     Represents a rectangle with private width and height attributes.
@@ -69,4 +68,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
