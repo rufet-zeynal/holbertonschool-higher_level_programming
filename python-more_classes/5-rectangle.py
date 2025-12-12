@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-
-""" Define Rectangle"""
+"""
+Define Rectangle
+"""
 
 
 class Rectangle:
