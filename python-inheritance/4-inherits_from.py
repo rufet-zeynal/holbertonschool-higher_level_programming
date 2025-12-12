@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" an object inherit from a class."""
+"""an object inherits (directly or indirectly) from a class."""
 
 
 def inherits_from(obj, a_class):
-    """ an instance of a class that inherits from a_class."""
-    return issubclass(type(obj), a_class) and type(obj) is not  a_class
+    """an instance of a class that inherits from a_class."""
+    return isinstance(obj, a_class) and type(obj) is not a_class
