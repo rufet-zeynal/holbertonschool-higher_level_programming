@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-"""
-Defines a Rectangle
-"""
+""" Define Rectangle"""
 
 class Rectangle:
     """Represents a rectangle with private width and height."""
