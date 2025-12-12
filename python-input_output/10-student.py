@@ -18,4 +18,3 @@ class Student:
         if isinstance(attrs, list) and all(isinstance(a, str) for a in attrs):
             return {a: getattr(self, a) for a in attrs if hasattr(self, a)}
         return self.__dict__.copy()
-
