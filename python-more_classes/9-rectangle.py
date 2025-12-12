@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Define Rectangle with number_of_instances, print_symbol, comparison, and square.
+Define Rectangle.
 """
 
 
