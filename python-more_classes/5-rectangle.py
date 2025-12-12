@@ -4,7 +4,6 @@
 Defines a Rectangle
 """
 
-
 class Rectangle:
     """Represents a rectangle with private width and height."""
 
