@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" an object inherits (directly or indirectly) from a class."""
+""" an object inherit from a class."""
 
 
 def inherits_from(obj, a_class):
