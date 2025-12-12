@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Check if object is an instance of a class or its subclass"""
+"""Class instance or subclass"""
 
 
 def is_kind_of_class(obj, a_class):
