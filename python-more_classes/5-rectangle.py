@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 """
-Defines a Rectangle class with width, height, area, perimeter,
-printable representation, recreatable repr, and deletion message.
+Defines a Rectangle
 """
 
 
