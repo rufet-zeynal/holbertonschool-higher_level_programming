@@ -1,0 +1,33 @@
+====================================
+7-base_geometry module
+====================================
+
+Import the module:
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Create an instance:
+>>> bg = BaseGeometry()
+
+Test area method:
+>>> bg.area()
+Traceback (most recent call last):
+Exception: area() is not implemented
+
+Test integer_validator with valid values:
+>>> bg.integer_validator("width", 10)
+>>> bg.integer_validator("height", 5)
+
+Test integer_validator with non-integer:
+>>> bg.integer_validator("name", "John")
+Traceback (most recent call last):
+TypeError: name must be an integer
+
+Test integer_validator with zero:
+>>> bg.integer_validator("age", 0)
+Traceback (most recent call last):
+ValueError: age must be greater than 0
+
+Test integer_validator with negative value:
+>>> bg.integer_validator("distance", -4)
+Traceback (most recent call last):
+ValueError: distance must be greater than 0
