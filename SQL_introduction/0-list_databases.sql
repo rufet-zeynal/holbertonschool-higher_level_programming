@@ -1,2 +1,2 @@
-# SQl
+-- Showing all databases
 SHOW DATABASES
