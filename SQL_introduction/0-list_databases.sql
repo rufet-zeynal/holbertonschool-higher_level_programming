@@ -1,3 +1,2 @@
-# SQL
-SELECT *
-FROM users
+# SQl
+SHOW DATABASES
