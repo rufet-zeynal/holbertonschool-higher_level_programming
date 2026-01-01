@@ -1,4 +1,4 @@
-# Previelege for user_od_1
+-- Previelege for user_od_1
 SHOW GRANTS FOR 'user_0d_1'@'localhost';
-# Previelege for user_od_2
+-- Previelege for user_od_2
 SHOW GRANTS FOR 'user_0d_2'@'localhost
